@@ -5,8 +5,8 @@ A collection of scripts designed to streamline various tasks related to project 
 
 Welcome to the Project Management and Automation script repository! This collection of scripts is designed to streamline various tasks related to system configuration, package management, virtual environment activation, directory organization, and script generation. Below is an overview of each script:
 
-## [ls_dpkg](https://gist.github.com/AJeschor/a66af7516298adb39efeb21478ebdfe6)
-The `ls_dpkg` script extracts and formats information about installed Debian-based system packages using the `dpkg --list` command. Users can choose output formats such as Markdown, CSV, YAML, TXT, or XLSX. The script prompts users to specify an output format and directory for saving the resulting file. If Pandas is installed, it is utilized for XLSX format; otherwise, a warning is issued. The default output directory is the user's home directory, and the script ensures the provided directory path is valid.
+## [ls_dpkg.py](https://gist.github.com/AJeschor/a66af7516298adb39efeb21478ebdfe6)
+The `ls_dpkg.py` script extracts and formats information about installed Debian-based system packages using the `dpkg --list` command. Users can choose output formats such as Markdown, CSV, YAML, TXT, or XLSX. The script prompts users to specify an output format and directory for saving the resulting file. If Pandas is installed, it is utilized for XLSX format; otherwise, a warning is issued. The default output directory is the user's home directory, and the script ensures the provided directory path is valid.
 
 ## [activate_env.py](https://gist.github.com/AJeschor/8be08c8868018a05e31f6b9bd9edc2dc)
 The `activate_env.py` script streamlines virtual environment activation in projects with multiple coexisting environments. It identifies and presents virtual environment options within a directory, allowing users to easily select which environment to activate. This script is most effective when employed as a sourced script through an alias for seamless integration into the command line environment.
